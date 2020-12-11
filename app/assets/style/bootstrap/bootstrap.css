@@ -7742,22 +7742,6 @@ button.bg-logo:focus {
   padding-top: 100%;
 }
 
-.embed-responsive-21by9::before {
-  padding-top: 42.85714%;
-}
-
-.embed-responsive-16by9::before {
-  padding-top: 56.25%;
-}
-
-.embed-responsive-4by3::before {
-  padding-top: 75%;
-}
-
-.embed-responsive-1by1::before {
-  padding-top: 100%;
-}
-
 .flex-row {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
@@ -15781,39 +15765,4 @@ a.text-logo:hover, a.text-logo:focus {
     border-color: #dee2e6;
   }
 }
-
-a.text-logo {
-  font-family: 'Baloo Thambi 2', cursive;
-  font-size: 36px;
-}
-
-a.text-logo:hover {
-  color: #F8B52E !important;
-}
-
-body, html {
-  line-height: 1.5;
-}
-
-h1, h2, h3, h4, h5, h6, ul {
-  margin-bottom: 0;
-}
-
-ul, ol {
-  list-style: none;
-  padding: 0;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.fz-1 {
-  font-size: 20px;
-}
-
-small {
-  font-size: 14px;
-  line-height: 16px;
-}
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=bootstrap.css.map */

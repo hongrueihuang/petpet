@@ -64,7 +64,8 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $blue !default;
+$primary:       #772400;//$blue !default;
+$logo:          #F8B52E !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -83,7 +84,8 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "logo":        $logo,
   ),
   $theme-colors
 );
@@ -140,9 +142,25 @@ $spacers: map-merge(
     0: 0,
     1: ($spacer * .25),
     2: ($spacer * .5),
-    3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3)
+    3: ($spacer * .75),
+    4: $spacer,
+    5: ($spacer * 1.25),
+    6: ($spacer * 1.5),
+    7: ($spacer * 1.75),
+    8: ($spacer * 2),
+    9: ($spacer * 2.25),
+    10: ($spacer * 2.5),
+    11: ($spacer * 2.75),
+    12: ($spacer * 3),
+    13: ($spacer * 3.25),
+    14: ($spacer * 3.5),
+    15: ($spacer * 3.75),
+    16: ($spacer * 4),
+    17: ($spacer * 4.25),
+    18: ($spacer * 4.5),
+    19: ($spacer * 4.75),
+    20: ($spacer * 5),
+    21: ($spacer * 5.25),
   ),
   $spacers
 );

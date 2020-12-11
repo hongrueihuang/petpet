@@ -1,0 +1,7 @@
+a.text-logo {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 36px;
+    &:hover {
+        color: $logo !important;
+    }
+}

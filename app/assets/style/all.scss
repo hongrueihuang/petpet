@@ -2,10 +2,9 @@
 @import './bootstrap/variables';
 @import './bootstrap/mixins';
 
-@import './bootstrap/root';
-@import './bootstrap/reboot';
-@import './bootstrap/utilities';
-@import './bootstrap/grid';
-@import './bootstrap/buttons';
+@import './bootstrap/bootstrap.scss';
+
+@import './layout/layout';
+@import './custom';
 
 
