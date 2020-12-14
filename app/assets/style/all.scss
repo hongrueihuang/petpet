@@ -3,8 +3,9 @@
 @import './bootstrap/mixins';
 
 @import './bootstrap/bootstrap.scss';
-
+@import './mixins/breakpoints';
 @import './layout/layout';
 @import './custom';
+@import './page/index';
 
 
