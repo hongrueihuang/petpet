@@ -53,6 +53,14 @@ h2 {
     }
 }
 
+.h2-sm {
+    font-size: 24px;
+
+    @include tablet() {
+        font-size: 40px;
+    }
+}
+
 h3 {
     font-size: 32px;
 }
@@ -66,6 +74,14 @@ h4 {
 
 h5 {
     font-size: 20px;
+}
+
+.h5-sm {
+    font-size: 16px;
+
+    @include tablet() {
+        font-size: 20px;
+    }
 }
 
 .rounded-lg-0 { 
