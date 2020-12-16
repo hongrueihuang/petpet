@@ -71,7 +71,7 @@ $success:       $green !default;
 $info:          #D54100;//$cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         rgba(250, 250, 250, 1);//$gray-100 !default;
 $dark:          $gray-800 !default;
 
 $theme-colors: () !default;
@@ -79,6 +79,7 @@ $theme-colors: map-merge(
   (
     "primary":    $primary,
     "main":       #F0AD25,
+    "white":      $white,
     "secondary":  $secondary,
     "success":    $success,
     "info":       $info,

@@ -1,0 +1,7 @@
+.banner-service {
+    height: 352px;
+
+    @include tablet() {
+        height: 315px;
+    }
+}
