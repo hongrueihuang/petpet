@@ -1,0 +1,23 @@
+.img-detail {
+    height: 282px;
+
+    @include tablet() {
+        height: 221px;
+    }
+
+    @include desktop() {
+        height: 440px;
+    }
+}
+
+.img-detail-sm {
+    height: 81px;
+
+    @include tablet() {
+        height: 63px;
+    }
+
+    @include desktop() {
+        height: 96px;
+    }
+}
