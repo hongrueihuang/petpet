@@ -64,11 +64,12 @@ h3 {
     font-size: 32px;
 }
 
+.h3-sm {
+    font-size: 28px;
+}
+
 h4 {
-    font-size: 20px;
-    @include tablet() {
-        font-size: 24px;
-    }
+    font-size: 24px;
 }
 
 h5 {
@@ -87,6 +88,13 @@ h6 {
     font-size: 16px;
 }
 
+
+.banner-subtitle {
+    font-size: 20px;
+    @include tablet() {
+        font-size: 24px;
+    }
+}
 .rounded-lg-0 { 
     @include desktop() {
         border-radius: 0 !important;
@@ -122,4 +130,15 @@ h6 {
     &:hover {
         background-color: rgba(0, 0, 0, .6);
     }
+}
+
+.icon-star {
+    line-height: 19px;
+}
+
+.text-underline {
+    @include tablet() {
+        text-decoration: underline;
+    }
+    
 }
