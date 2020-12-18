@@ -72,6 +72,14 @@ h4 {
     font-size: 24px;
 }
 
+.h4-sm {
+    font-size: 24px;
+
+    @include desktop() {
+        font-size: 32px;
+    }
+}
+
 h5 {
     font-size: 20px;
 }
