@@ -66,19 +66,21 @@ $colors: map-merge(
 
 $primary:       #772400;//$blue !default;
 $logo:          #F8B52E !default;
+$main:          #F0AD25;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          #D54100;//$cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         rgba(250, 250, 250, 1);//$gray-100 !default;
+$disable:       #888888;
+$light:         rgb(168, 158, 158);//$gray-100 !default;
 $dark:          #212529;//$gray-800 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     "primary":    $primary,
-    "main":       #F0AD25,
+    "main":       $main,
     "small":      #887676,
     "white":      $white,
     "secondary":  $secondary,
@@ -87,6 +89,7 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
+    "disable":    $disable,
     "dark":       $dark,
     "black":      $black,  
     "logo":       $logo,
